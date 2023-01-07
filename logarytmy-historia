@@ -1,0 +1,16 @@
+// -- 07/01/2023 16:13:23 -- //
+cd Scilab
+diary('logarytmy')
+a = log2(32)
+b = log2(1/81)/log2(3)
+log c = log2(8)/log2(4)
+c = log2(8)/log2(4)
+d = (log2(3/5)/log2(3)) + (log2(25/9)/log2(9))
+e = log2((a^5 * b^9)/c^6)/log2(4)
+f = log2(sqrt(2 * sqrt(8 * sqrt(20))))/log2(3)
+g = log10(nthroot(1/(a^2), 3) * nthroot(1/(b^2), 4))
+h = 10^(-log10(8))
+i = 10^(1-log10(2))
+j = log2(7)/log2(nthroot(5, 3)) * log2(125)/log2(sqrt(7))
+k = log2(12) * (log2(22)/log2(12)) * (log2(32)/log2(22))
+savehistory('logarytmy-historia')

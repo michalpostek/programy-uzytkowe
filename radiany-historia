@@ -1,0 +1,12 @@
+// -- 07/01/2023 16:43:41 -- //
+clc
+clear
+diary('radiany')
+a = (7 * %pi)/12 * (180 / %pi)
+b = (4 * %pi)/3 * (180 / %pi)
+c = (9 * %pi)/2 * (180 / %pi)
+d = (7 * %pi)/12 * (180 / %pi)
+e = (11 * %pi)/12 * (180 / %pi)
+f = (31 * %pi)/18 * (180 / %pi)
+diary('radiany','close')
+savehistory('radiany-historia')

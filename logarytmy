@@ -1,0 +1,66 @@
+ ans  =
+
+   1.
+
+--> a = log2(32)
+ a  = 
+
+   5.
+
+--> b = log2(1/81)/log2(3)
+ b  = 
+
+  -4.
+
+--> log c = log2(8)/log2(4)
+
+log: Wrong number of input argument(s): 1 expected.
+
+--> c = log2(8)/log2(4)
+ c  = 
+
+   1.5
+
+--> d = (log2(3/5)/log2(3)) + (log2(25/9)/log2(9))
+ d  = 
+
+  -1.110D-16
+
+--> e = log2((a^5 * b^9)/c^6)/log2(4)
+ e  = 
+
+   13.049933 + 2.2661801i
+
+--> f = log2(sqrt(2 * sqrt(8 * sqrt(20))))/log2(3)
+ f  = 
+
+   1.1295163
+
+--> g = log10(nthroot(1/(a^2), 3) * nthroot(1/(b^2), 4))
+ g  = 
+
+  -0.7670100
+
+--> h = 10^(-log10(8))
+ h  = 
+
+   0.125
+
+--> i = 10^(1-log10(2))
+ i  = 
+
+   5.0000000
+
+--> j = log2(7)/log2(nthroot(5, 3)) * log2(125)/log2(sqrt(7))
+ j  = 
+
+   18.
+
+--> k = log2(12) * (log2(22)/log2(12)) * (log2(32)/log2(22))
+ k  = 
+
+   5.
+
+--> savehistory('history')
+
+--> diary('logarytmy','close')

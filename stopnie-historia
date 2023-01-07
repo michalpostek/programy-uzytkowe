@@ -1,0 +1,12 @@
+// -- 07/01/2023 16:40:44 -- //
+clc
+clear
+diary('stopnie')
+a = 105 * (%pi / 180)
+b = 140 * (%pi / 180)
+c = 165 * (%pi / 180)
+d = 710 * (%pi / 180)
+e = 315 * (%pi / 180)
+f = 240 * (%pi / 180)
+diary('stopnie','close')
+savehistory('stopnie-historia')
